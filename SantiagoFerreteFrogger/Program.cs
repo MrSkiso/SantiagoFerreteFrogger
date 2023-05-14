@@ -16,16 +16,20 @@ namespace M05_UF3_P3_Frogger
             List<Lane> lanes = new List<Lane>();
 
             lanes.Add(new Lane(7, false, ConsoleColor.Black, true, false, 0.3f, Utils.charCars, new List<ConsoleColor>(Utils.colorsCars)));
-            lanes.Add(new Lane(8, false, ConsoleColor.Black, true, false, 0.2f, Utils.charCars, new List<ConsoleColor>(Utils.colorsCars)));
-            lanes.Add(new Lane(9, false, ConsoleColor.Black, true, false, 0.4f, Utils.charCars, new List<ConsoleColor>(Utils.colorsCars)));
-            lanes.Add(new Lane(10, false, ConsoleColor.Black, true, false, 0.6f, Utils.charCars, new List<ConsoleColor>(Utils.colorsCars)));
-            lanes.Add(new Lane(11, false, ConsoleColor.Black, true, false, 0.5f, Utils.charCars, new List<ConsoleColor>(Utils.colorsCars)));
+            lanes.Add(new Lane(8, false, ConsoleColor.Black, true, false, 0.4f, Utils.charCars, new List<ConsoleColor>(Utils.colorsCars)));
+            lanes.Add(new Lane(9, false, ConsoleColor.Black, true, false, 0.2f, Utils.charCars, new List<ConsoleColor>(Utils.colorsCars)));
+            lanes.Add(new Lane(10, false, ConsoleColor.Black, true, false, 0.2f, Utils.charCars, new List<ConsoleColor>(Utils.colorsCars)));
+            lanes.Add(new Lane(11, false, ConsoleColor.Black, true, false, 0.3f, Utils.charCars, new List<ConsoleColor>(Utils.colorsCars)));
+            lanes.Add(new Lane(6, false, ConsoleColor.DarkGreen, false, false, 0.0f, Utils.charCars, new List<ConsoleColor>(Utils.colorsCars)));
+            lanes.Add(new Lane(12, false, ConsoleColor.DarkGreen, false, false, 0.0f, Utils.charCars, new List<ConsoleColor>(Utils.colorsCars)));
+            lanes.Add(new Lane(13, false, ConsoleColor.DarkGreen, false, false, 0.0f, Utils.charCars, new List<ConsoleColor>(Utils.colorsCars)));
+            lanes.Add(new Lane(0, false, ConsoleColor.DarkGreen, false, false, 0.0f, Utils.charCars, new List<ConsoleColor>(Utils.colorsCars)));
 
             lanes.Add(new Lane(1, true, ConsoleColor.DarkBlue, false, true, 0.7f, Utils.charLogs, new List<ConsoleColor>(Utils.colorsLogs)));
             lanes.Add(new Lane(2, true, ConsoleColor.DarkBlue, false, true, 0.8f, Utils.charLogs, new List<ConsoleColor>(Utils.colorsLogs)));
             lanes.Add(new Lane(3, true, ConsoleColor.DarkBlue, false, true, 0.9f, Utils.charLogs, new List<ConsoleColor>(Utils.colorsLogs)));
             lanes.Add(new Lane(4, true, ConsoleColor.DarkBlue, false, true, 0.3f, Utils.charLogs, new List<ConsoleColor>(Utils.colorsLogs)));
-            lanes.Add(new Lane(5, true, ConsoleColor.DarkBlue, false, true, 0.4f, Utils.charLogs, new List<ConsoleColor>(Utils.colorsLogs)));
+            lanes.Add(new Lane(5, true, ConsoleColor.DarkBlue, false, true, 0.6f, Utils.charLogs, new List<ConsoleColor>(Utils.colorsLogs)));
 
             Player player = new Player();
 
